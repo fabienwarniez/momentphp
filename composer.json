@@ -1,0 +1,26 @@
+
+{
+  "name": "fabienwarniez/momentphp",
+  "type": "symfony-bundle",
+  "description": "This Bundle helps you convert DateTime objects into `2 days ago` type of string.",
+  "keywords": ["moment", "time", "date", "ago", "translation", "translator", "translate"],
+  "homepage": "https://github.com/fabienwarniez/momentphp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabien Warniez",
+      "email": "fabien@warniez.com"
+    }
+  ],
+  "require": {
+    "php": "~5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "FabienWarniez\\HowLongAgoBundle\\": ""
+    }
+  }
+}
